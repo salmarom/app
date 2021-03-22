@@ -1,0 +1,28 @@
+[
+  {
+  
+      "id":"1",
+       "nombre":"Mariana",
+      "edad":21,
+      "peso":69,
+      "ejercicio":"3 veces a la semana"
+  },
+   {
+  
+      "id":"2",
+       "nombre":"Salma",
+      "edad":22,
+      "peso":59,
+      "ejercicio":"2 veces a la semana"
+  },
+  {
+  
+      "id":"3",
+      "nombre":"Andrea",
+      "edad":22,
+      "peso":61,
+      "ejercicio":"5 veces a la semana"
+  }
+
+
+]
