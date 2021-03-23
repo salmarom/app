@@ -1,0 +1,21 @@
+const {Router} = require("express");
+const router = Router();
+
+const suscripcion = require("./subs.json");
+
+router.get("/", (req, res) =>{
+    res.json(suscripcion); 
+});
+
+router.get("/:id", (req, res) => {
+    const { id } = req.params;
+
+    suscripcion.forEach(cont => {
+        if (cont.id == id) {
+            res.json(cont);
+        }
+    })
+});
+
+
+module.exports = router;
