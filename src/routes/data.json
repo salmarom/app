@@ -6,7 +6,7 @@
       "edad":21,
       "peso":69,
       "altura":1.68,
-      "IMC": "peso"/("altura")^2,
+      "IMC": 24,
       "Calorias":
       "ejercicio":"3 veces a la semana"
   },
@@ -17,7 +17,7 @@
       "edad":22,
       "peso":59,
       "altura":1.59,
-      "IMC": "peso"/("altura")^2,
+      "IMC": 23.3,
       "ejercicio":"2 veces a la semana"
   },
   {
@@ -27,7 +27,7 @@
       "edad":22,
       "peso":61,
       "altura":1.60,
-      "IMC": "peso"/("altura")^2,
+      "IMC": 23.8,
       "ejercicio":"5 veces a la semana"
   }
 
