@@ -4,16 +4,19 @@ const router = Router();
 //const express = require(express);
 //const router = express.Router();
 
-router.get('/',(req,res) => {
-    res.json({"name":"namjoon"});
-});
+const usuarios = require('./data.json');
+const api_url = '/usuarios';
 
-router.get('/usuarios',(req,res) => {
-   const data = {
-       "nombre"="John Doe";
-       "id"= "1";
-   };
-   res.json(data);
+
+router.get(api_url + '/:id', (request, response) => {
+    const {id} = request.params;
+    data.forEach(data => {
+        if (data.id == id) {
+            response.status(200).json(usuarios);
+            return;
+        }
+    });
+    response.status(500).send('usuario con id #' + id + ' NOT FOUND');
 });
 
 
